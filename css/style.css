@@ -1,0 +1,91 @@
+h1{
+	font-size: 5em; 
+	font-weight: 900; 
+	color: #000000;
+	text-align: center;
+}
+.h1{
+	position: absolute;
+	top: calc(75% - 400px);
+	right: calc(70% - 400px);"
+}
+
+.centered-box{
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	top: calc(50% - 400px);
+	left: calc(50% - 400px);
+}
+.absol1{
+	width: 70px;
+	height:70px;
+	position: absolute;
+	top:570px;
+	left: 110px
+}
+.absol2{
+	width: 70px;
+	height:70px;
+	position: absolute;
+	top:200px;
+	left: 520px
+}
+.absol3{
+	width:90px;
+	height:90px;
+	position: absolute;
+	top:350px;
+	left: 150px
+}
+.absol4{
+	width: 90px;
+	height:90px;
+	position: absolute;
+	top:570px;
+	left: 620px
+}
+.absol5{
+	width: 100px;
+	height:100px;
+	position: absolute;
+	top:400px;
+	left: 580px
+}
+.bottom{
+	width: 320px;
+	height:40px;
+	position: absolute;
+	bottom: 40px;
+	left:20px;
+}
+.cube{
+	width: 100px;
+	height: 100px;
+	background-color: #000000;
+	transition-property: all;
+	transition-duration: 1s;
+	float:left;
+	transform: scale(1, 1);
+
+	animation: opacitytoz;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-play-state: paused;
+}
+.cube:hover{
+	transform: scale(0.8, 0.8);
+	animation-play-state: running;
+}
+
+@keyframes opacitytoz {
+
+	0% {
+		opacity: 1
+	}
+
+	100%{
+		opacity: 0
+	}
+}
+
